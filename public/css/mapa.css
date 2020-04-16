@@ -1,0 +1,66 @@
+body, html
+{
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+}
+
+#content
+{
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 0px; 
+}
+
+.contenido_frame{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 999999;
+    height: 100%;
+}
+
+#div_superior {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:10;
+}
+
+.carding {
+    margin-top: 30%;
+}
+
+.panel-success{
+    border-color: #3c753d;
+}
+
+.panel-danger{
+    border-color: #a94442;
+}
+.panel-primary {
+    border-color: #428bca;
+}
+
+.panel-warning{
+    color: #ec8111!important;
+}
+
+
+.bg-black {
+    background-color: #343a40 !important;
+}
+
+.numeros{
+    font-size: 30px;
+}
